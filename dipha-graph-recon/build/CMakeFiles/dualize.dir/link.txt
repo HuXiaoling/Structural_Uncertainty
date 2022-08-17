@@ -1,0 +1,1 @@
+/usr/bin/c++    -O3 -DNDEBUG   -Wl,-Bsymbolic-functions -Wl,-z,relro -rdynamic CMakeFiles/dualize.dir/src/dualize.cpp.o  -o dualize -lmpichcxx -lmpich 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -O3 -DNDEBUG   -Wl,-Bsymbolic-functions -Wl,-z,relro -rdynamic CMakeFiles/full_to_sparse_distance_matrix.dir/src/full_to_sparse_distance_matrix.cpp.o  -o full_to_sparse_distance_matrix -lmpichcxx -lmpich 

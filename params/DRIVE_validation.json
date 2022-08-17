@@ -1,0 +1,13 @@
+{
+    "common":{
+        "activity": "validation",
+        "img_file": "data/DRIVE/images",
+        "gt_file": "data/DRIVE/1st_manual",
+        "checkpoint_restore":"experiments/DRIVE/model_best.pth.tar"
+    },
+    "validation":{
+        "validation_datalist":"data-lists/DRIVE/validation-list.csv",
+        "output_folder":"experiments/DRIVE/validation-outputs",
+        "validation_batch_size":1
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "common":{
+        "activity": "train",
+        "img_file": "data/ISBI2013/train-volume.tif",
+        "gt_file": "data/ISBI2013/train-labels.tif"
+        },
+    "train":{
+        "train_datalist":"data-lists/ISBI2013/train-list.csv",
+        "validation_datalist":"data-lists/ISBI2013/validation-list.csv",
+        "train_batch_size":16,
+        "validation_batch_size":1
+    }
+}

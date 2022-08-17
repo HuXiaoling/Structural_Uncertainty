@@ -1,0 +1,13 @@
+{
+    "common":{
+        "activity": "train",
+        "img_file": "data/CREMI/train-volume.tif",
+        "gt_file": "data/CREMI/train-labels.tif"
+        },
+    "train":{
+        "train_datalist":"data-lists/CREMI/train-list.csv",
+        "validation_datalist":"data-lists/CREMI/validation-list.csv",
+        "train_batch_size":16,
+        "validation_batch_size":1
+    }
+}

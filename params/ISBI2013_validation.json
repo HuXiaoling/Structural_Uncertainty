@@ -1,0 +1,13 @@
+{
+    "common":{
+        "activity": "validation",
+        "img_file": "data/ISBI2013/train-volume.tif",
+        "gt_file": "data/ISBI2013/train-labels.tif",
+        "checkpoint_restore":"experiments/ISBI2013/model_best.pth.tar"
+    },
+    "validation":{
+        "validation_datalist":"data-lists/ISBI2013/validation-list.csv",
+        "output_folder":"experiments/ISBI2013/validation-outputs",
+        "validation_batch_size":1
+    }
+}

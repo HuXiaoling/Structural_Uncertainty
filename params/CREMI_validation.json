@@ -1,0 +1,13 @@
+{
+    "common":{
+        "activity": "validation",
+        "img_file": "data/CREMI/train-volume.tif",
+        "gt_file": "data/CREMI/train-labels.tif",
+        "checkpoint_restore":"experiments/CREMI/model_best.pth.tar"
+    },
+    "validation":{
+        "validation_datalist":"data-lists/CREMI/validation-list.csv",
+        "output_folder":"experiments/CREMI/validation-outputs",
+        "validation_batch_size":1
+    }
+}

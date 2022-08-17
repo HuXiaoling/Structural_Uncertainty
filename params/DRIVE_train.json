@@ -1,0 +1,13 @@
+{
+    "common":{
+        "activity": "train",
+        "img_file": "data/DRIVE/images",
+        "gt_file": "data/DRIVE/1st_manual"
+        },
+    "train":{
+        "train_datalist":"data-lists/DRIVE/train-list.csv",
+        "validation_datalist":"data-lists/DRIVE/validation-list.csv",
+        "train_batch_size":16,
+        "validation_batch_size":1
+    }
+}
