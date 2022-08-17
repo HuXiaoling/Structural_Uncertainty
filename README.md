@@ -4,7 +4,7 @@ conda activate 3dunet
 
 ## Getting started - compile dipha
 
-%% You only need to run cmake & make once
+**You only need to run cmake & make once**
 
 * (dipha-graph-recon folder)
 
