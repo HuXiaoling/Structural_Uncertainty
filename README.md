@@ -2,6 +2,26 @@
 
 conda activate 3dunet
 
+### Getting started - run dipha
+
+%% You only need to run cmake & make once
+
+* (dipha-graph-recon folder)
+
+run the following commands in this folder to build dipha
+
+> rm -rf build/ (this removes my build directory)
+
+> mkdir build
+
+> cd build
+
+> cmake ..
+
+> make
+
+now that dipha is built, you are ready
+
 ## Training from scratch: 
 
 ### CREMI
