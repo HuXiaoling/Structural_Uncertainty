@@ -2,7 +2,7 @@
 
 conda activate 3dunet
 
-### Getting started - run dipha
+## Getting started - compile dipha
 
 %% You only need to run cmake & make once
 
