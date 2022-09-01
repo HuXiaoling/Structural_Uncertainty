@@ -1,4 +1,4 @@
-# convert bmp to nii.gz
+# convert png to nii.gz
 import SimpleITK as sitk
 import os, sys, glob
 import numpy as np
