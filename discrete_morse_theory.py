@@ -91,7 +91,7 @@ def dmt(patch, Th):
 	dmt_map = np.zeros((B, C, H, W))
     
 	for i in range(B):
-		dmt_map[i,0,:,:]= dmt_2d(patch[i,0,:,:], Th[i] * 255)
+		dmt_map[i,0,:,:]= dmt_2d(patch[i,0,:,:], Th[i][0] * 255)
 
 	return dmt_map
 
