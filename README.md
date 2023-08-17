@@ -1,4 +1,4 @@
-## Probabilistic-Unet_Pytorch
+## Structural Uncertainty
 
 conda activate 3dunet
 
